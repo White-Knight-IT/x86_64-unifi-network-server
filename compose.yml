@@ -1,9 +1,9 @@
 version: '3.9'
 
 services:
-  unifi-docker-arm648.0:
-    container_name: unifi-docker-arm648.0-container
-    image: unifi-docker-arm648.0:latest
+  unifi-docker-x86_64:
+    container_name: unifi-docker-x86_64-container
+    image: unifi-docker-x86_64:latest
     build:
       context: .
       network: host
